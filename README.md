@@ -293,7 +293,7 @@ db.View(func(tx *bolt.Tx) error {
 	max := []byte("2000-01-01T00:00:00Z")
 
 	// Iterate over the 90's.
-	for k, v := c.Seek(min); k != nil && bytes.Compare(k, max) != -1; k, v = c.Next() {
+	for k, v := c.Seek(min); k != nil && bytes.Compare(k, max) <= 0; k, v = c.Next() {
 		fmt.Printf("%s: %s\n", k, v)
 	}
 
@@ -397,7 +397,6 @@ go func() {
 		// Save stats for the next loop.
 		prev = stats
 	}
-}
 }()
 ```
 
