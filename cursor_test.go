@@ -9,7 +9,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/btcsuite/bolt"
+	"github.com/conseweb/bolt"
 )
 
 // Ensure that a cursor can return a reference to the bucket that created it.

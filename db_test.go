@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/bolt"
+	"github.com/conseweb/bolt"
 )
 
 var statsFlag = flag.Bool("stats", false, "show performance stats")

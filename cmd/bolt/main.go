@@ -19,7 +19,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/btcsuite/bolt"
+	"github.com/conseweb/bolt"
 )
 
 var (

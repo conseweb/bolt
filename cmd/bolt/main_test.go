@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/btcsuite/bolt"
-	"github.com/btcsuite/bolt/cmd/bolt"
+	"github.com/conseweb/bolt"
+	"github.com/conseweb/bolt/cmd/bolt"
 )
 
 // Ensure the "info" command can print information about a database.

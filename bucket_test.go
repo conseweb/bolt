@@ -12,7 +12,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/btcsuite/bolt"
+	"github.com/conseweb/bolt"
 )
 
 // Ensure that a bucket that gets a non-existent key returns nil.
